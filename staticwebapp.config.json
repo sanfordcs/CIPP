@@ -88,3 +88,12 @@
     ".json": "text/json"
   }
 }
+{
+  "routes": [
+    {
+      "route": "/me",
+      "rewrite": "/.auth/me"
+    }
+  ]
+}
+
